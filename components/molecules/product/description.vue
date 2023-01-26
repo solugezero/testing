@@ -32,6 +32,10 @@
     line-height: 140%;
     color: #a7a7a7;
 		max-width: 35%;
+
+    @media (max-width: 768px) {
+      max-width: unset;
+    }
   }
 }
 </style>
